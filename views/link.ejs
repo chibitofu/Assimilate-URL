@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h1 class="title">Assimilate URLs</h1>
+    <h3 class="title">Turn inefficient urls into short links</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-2">
+  </div>
+  <div class="col-xs-8">
+    <h1 class="superior">Superior Links</h1>
+    <div class="infoBox">
+      <% var i = 0; %>
+      <% link.forEach(function(link){ %>
+        <div class="break">
+          <p><span class="visited pull-left"><%= link.count %> Visits </span>
+            <a href="http://localhost:3000/<%= number[i] %>" target="_blank"><%= link.full_url %></a>
+            <% i+=1; %>
+          </p>
+        </div>
+      <% }); %>
+    </div>
+  </div>
+  <div class="col-xs-2">
+  </div>
+</div>
+<div class="row">
+<div class="col-xs-12">
+</div>
+</div>

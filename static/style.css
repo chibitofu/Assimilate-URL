@@ -1,0 +1,111 @@
+body {
+  background-image: url('http://i.imgur.com/y67tNR6.png');
+}
+
+.nav {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#brand {
+  color: rgb(36, 133, 89);
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+#linkSub {
+  width: 375px;
+}
+
+.subButt {
+  margin-top: 5px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 4px solid rgb(12, 84, 17);
+  background-color: rrgb(36, 133, 89);
+}
+
+.mainArea {
+  height: 400px;
+}
+
+.superior {
+  color: rgb(36, 133, 89);
+}
+
+.infoBox {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border: 6px solid rgb(36, 133, 89);
+  padding: 8px 0 0 10px;
+}
+
+.infoBox a{
+  color: rgb(70, 70, 70);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.infoBox span{
+  color: rgb(36, 133, 89);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.visited{
+  margin-right:20px;
+}
+
+.fullURL {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(70, 70, 70);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.wordWrap {
+  font-size: 14px;
+  font-weight: normal;
+  word-wrap: break-word;
+  color: rgb(21, 107, 18);
+  margin-right: 15px;
+  margin-top: 0;
+}
+
+.shortURL {
+  color: rgb(70, 70, 70);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.shortURL a {
+  color: rgb(28, 120, 186);
+}
+
+#textArea {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  color: rgb(210, 139, 44);
+  word-wrap: break-word;
+}
+.break {
+  word-wrap: break-word;
+  margin-right: 15px;
+}
+
+.copyButt {
+  margin-top: 0;
+}
+
+footer {
+  font-size: 10px;
+  color: rgb(255, 255, 255);
+  font-family: 'Quicksand', sans-serif;
+  margin: 15px 0;
+}

@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "url_shortener",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "url_shortener",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "url_shortener",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

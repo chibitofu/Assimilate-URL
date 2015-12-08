@@ -1,0 +1,27 @@
+
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h1 class="title">Assimilate URLs</h1>
+    <h3 class="title">Turn inefficient urls into short links</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-2">
+  </div>
+  <div class="col-xs-8 mainArea">
+    <div class="infoBox">
+      <p class="fullURL">Recieved Input:
+      <span class="wordWrap">
+      <%= id.full_url %>
+    </span>
+  </p>
+      <p class="shortURL">Assimilated Input: <a href="http://localhost:3000/<%= key %>" target="_blank">localhost:3000/<%= key %></a></p>
+        <textarea id="textArea" rows="1" readonly>localhost:3000/<%= key %></textarea>
+        <p><button id="copyButt" class="btn btn-primary"type="button">copy</button></p>
+    </div>
+  </div>
+  <div class="col-xs-2">
+  </div>
+  <div class="col-xs-12">
+  </div>
+</div>
